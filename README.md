@@ -1,11 +1,7 @@
-# Closery
+# Closery API Server
 
-## Offline Offers around your location
 
-This is a product being built by the Assembly community. You can help push this idea forward by visiting [https://assembly.com/closery](https://assembly.com/closery).
 
-### How Assembly Works
 
-Assembly products are like open-source and made with contributions from the community. Assembly handles the boring stuff like hosting, support, financing, legal, etc. Once the product launches we collect the revenue and split the profits amongst the contributors.
-
-Visit [https://assembly.com](https://assembly.com) to learn more.
+###
+http://strongloop.com/strongblog/enterprise-api-swagger-2-0-loopback/
