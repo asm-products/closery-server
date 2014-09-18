@@ -1,4 +1,4 @@
-swagger: '2.0'
+swagger: 2
 info:
   description: Closery API server
   version: 1.0.0
@@ -513,6 +513,89 @@ definitions:
     price:
       type: integer
       description: The price of this variant
+
+
+  Location:
+    properties:
+
+      name:
+        type: string
+
+      type:
+        type: string
+        description: The location type
+
+      address1:
+        type: string
+        description: Address first line
+
+      address2:
+        type: string
+        description: Address second line
+
+      zip:
+        type: string
+        description: Zip or postal code
+
+      city:
+        type: string
+        description: The city name
+
+      country:
+        type: string
+        desciption: The country code
+
+      phone:
+        type: string
+        format: phone
+        description: The phone number
+
+      created_at:
+        type: dateTime
+        description: Creation time of the location
+
+      update_at:
+        type: dateTime
+        description: Update time of the location
+
+      id:
+        type: integer
+        format: int64
+
+  Shop:
+    properties:
+      id:
+        type: integer
+        format: int64
+
+      name:
+        type: string
+        description: Name of this shop
+
+      lat:
+        type: integer
+        description: Latitude
+
+      lng:
+        type: integer
+        description: Longitude
+
+      website:
+        type: string
+        format: url
+        description: Website for this shop
+
+      email:
+        type: string
+        format: email
+        description: Contact email for this shop
+
+      phone:
+        type: string
+        format: phone
+        description: Phonenumber during service hours
+
+
 
   Order:
     properties:

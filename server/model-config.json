@@ -6,7 +6,8 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "db",
+    "public": true
   },
   "AccessToken": {
     "dataSource": "db",
@@ -23,5 +24,37 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Category": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Product": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Tag": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Image": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ProductVariant": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Order": {
+    "dataSource": "db",
+    "public": true
+  },
+  "swagger_v1": {
+    "dataSource": null,
+    "public": true
+  },
+  "boolean": {
+    "dataSource": "db",
+    "public": true
   }
 }
